@@ -24,7 +24,7 @@ OUTPUT >> 3
 |---|---|
 | Graph literals | `{A-B, B-C, D}` (edges and isolated nodes) |
 | Declaration / assignment | `var x = expr` · `x <- expr` |
-| Graph operators | `UNIONE`, `INTERSEZIONE` (infix), `INCOLLA(G1, G2, u, v)`, `DISTANZA(G, u, v)` |
+| Graph operators | `G1 UNIONE G2`, `G1 INTERSEZIONE G2` (also as `UNIONE(G1, G2)`), `INCOLLA(G1, G2, u, v)`, `DISTANZA(G, u, v)` |
 | Arithmetic, comparison, logic | `+ - * /` · `== != < > <= >=` · `AND OR` |
 | Control flow | `IF c THEN ... ELSE ... ENDIF` · `WHILE c DO ... DONE` |
 | User-defined functions | `DEF f(x, y) = expr` (closures, static scoping) |
